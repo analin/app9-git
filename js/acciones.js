@@ -56,7 +56,7 @@ function watchPosition(){
 	function onSuccess(position){
 		
 		$('#latitud').html(position.coords.latitude);
-		$('#lontitud').html(position.coords.longitude);
+		$('#longitud').html(position.coords.longitude);
 		$('#altitud').html(position.coords.altitude);
 		$('#accuracy').html(position.coords.accuracy);
 		$('#aaccuracy').html(position.coords.altitudeAccuracy);
